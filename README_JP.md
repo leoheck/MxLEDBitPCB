@@ -4,13 +4,13 @@
 helixを参考にSK6812miniがハマるようにしたものです。
 
 自作キーボード用のプリント基板、１つの基板が１個のスイッチに対応しています。
-![pcb](./pcbs.jpg)
+![pcb](./docs/pcbs.jpg)
 
 この基板を使うと、基板設計をしなくてもオリジナル配列のフルカラーバックライトのキーボードが作れます。
 
 たとえば…！
 
-![example](https://cdn-ak.f.st-hatena.com/images/fotolife/s/swan_match/20180915/20180915184339.jpg)
+![example](https://cdn-ak.f.st-hatena.com/images/fotolif./swan_match/20180915/20180915184339.jpg)
 
 詳しくは[こちら](https://swan-match.hatenablog.com/entry/2018/09/15/184923)。
 

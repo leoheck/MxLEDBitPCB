@@ -2,13 +2,13 @@
 
 [Cherry-Mx-Bitboard](https://github.com/ogatatsu/Cherry-Mx-Bitboard) is modified so that SK6812mini is addicted to helix.
 
-Printed circuit board for self-made keyboard, one board corresponds to one switch. ![pcb](pcbs.jpg)
+Printed circuit board for self-made keyboard, one board corresponds to one switch. ![pcb](./docs/pcbs.jpg)
 
 Using this board, you can create a full-color backlit keyboard with an original layout without designing the board.
 
 For example ...!
 
-![example](https://cdn-ak.f.st-hatena.com/images/fotolife/s/swan_match/20180915/20180915184339.jpg)
+![example](https://cdn-ak.f.st-hatena.com/images/fotolif./swan_match/20180915/20180915184339.jpg)
 
 [Click here for](https://swan-match.hatenablog.com/entry/2018/09/15/184923) details.
 

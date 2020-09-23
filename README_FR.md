@@ -2,13 +2,13 @@
 
 [Cherry-Mx-Bitboard](https://github.com/ogatatsu/Cherry-Mx-Bitboard) est modifié de sorte que SK6812mini est accro à l'hélice.
 
-Carte de circuit imprimé pour clavier auto-fabriqué, une carte correspond à un commutateur. ![pcb](pcbs.jpg)
+Carte de circuit imprimé pour clavier auto-fabriqué, une carte correspond à un commutateur. ![pcb](./docs/pcbs.jpg)
 
 En utilisant cette carte, vous pouvez créer un clavier rétroéclairé en couleur avec une disposition originale sans concevoir la carte.
 
 Par exemple ...!
 
-![exemple](https://cdn-ak.f.st-hatena.com/images/fotolife/s/swan_match/20180915/20180915184339.jpg)
+![exemple](https://cdn-ak.f.st-hatena.com/images/fotolif./swan_match/20180915/20180915184339.jpg)
 
 [Cliquez ici pour](https://swan-match.hatenablog.com/entry/2018/09/15/184923) plus [de](https://swan-match.hatenablog.com/entry/2018/09/15/184923) détails.
 

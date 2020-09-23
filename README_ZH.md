@@ -2,13 +2,13 @@
 
 修改了[Cherry-Mx-Bitboard](https://github.com/ogatatsu/Cherry-Mx-Bitboard) ，使SK6812mini沉迷于螺旋线。
 
-自制键盘的印刷电路板，其中一块板对应一个开关。 ![印刷电路板](pcbs.jpg)
+自制键盘的印刷电路板，其中一块板对应一个开关。 ![印刷电路板](./docs/pcbs.jpg)
 
 使用此板子，无需设计板子，就可以创建具有原始布局的全色背光键盘。
 
 例如...！
 
-![例子](https://cdn-ak.f.st-hatena.com/images/fotolife/s/swan_match/20180915/20180915184339.jpg)
+![例子](https://cdn-ak.f.st-hatena.com/images/fotolif./swan_match/20180915/20180915184339.jpg)
 
 [单击此处了解](https://swan-match.hatenablog.com/entry/2018/09/15/184923)详细信息。
 
