@@ -54,7 +54,7 @@ De plus, des outils tels qu'un fer à souder à contrôle de température, un te
 
 ## Affectation des broches
 
-![pcb](pcb1.png)
+![pcb](./docs/pcb1.png)
 
 Les brochages des possibilités infinies sont:
 
@@ -93,7 +93,7 @@ Par exemple, si vous avez une matrice de réseau 3 * 3, le câblage sera le suiv
  Le fil émaillé en uréthane (UEW) est assez difficile à décoller le film, donc le câblage entre les cartes adjacentes où la possibilité de court-circuit est faible peut être un pied de diode de coupure.
  La LED est câblée en spirale en haut à droite.
 
-![pcb](pcb9.png)
+![pcb](./docs/pcb9.png)
 
 ### Remarques
 

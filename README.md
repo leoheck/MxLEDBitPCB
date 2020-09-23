@@ -54,7 +54,7 @@ In addition, tools such as a temperature control soldering iron, tester, and twe
 
 ## Pin assignment
 
-![pcb](pcb1.png)
+![pcb](./docs/pcb1.png)
 
 The pinouts of the infinite possibilities are:
 
@@ -93,7 +93,7 @@ For example, if you have a 3 * 3 grid array, the wiring will be as follows.
  Urethane enameled wire (UEW) is quite difficult to peel off the film, so the wiring between adjacent boards where the possibility of short-circuiting is small may be a cut-off diode foot.
  The LED is wired spirally from the upper right.
 
-![pcb](pcb9.png)
+![pcb](./docs/pcb9.png)
 
 ### Notes
 
