@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name keebio_parts)(type KiCad)(uri ${KIPRJMOD}/../../../lib/kbd.pretty)(options "")(descr ""))
+  (lib (name footprint)(type KiCad)(uri ${KIPRJMOD}/footprint.pretty)(options "")(descr ""))
+  (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/../../../lib/keyboard.pretty)(options "")(descr ""))
+)
