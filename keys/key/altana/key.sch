@@ -16,277 +16,258 @@ $EndDescr
 $Comp
 L Device:D D?
 U 1 1 5F6D17DD
-P 6175 3250
+P 5300 3250
 AR Path="/5F6D17DD" Ref="D?"  Part="1" 
-AR Path="/5F6CE726/5F6D17DD" Ref="D?"  Part="1" 
+AR Path="/5F6CE726/5F6D17DD" Ref="D1"  Part="1" 
 AR Path="/5F6DC527/5F6D17DD" Ref="D?"  Part="1" 
 AR Path="/5F6DC5E9/5F6D17DD" Ref="D?"  Part="1" 
-F 0 "D?" V 6221 3171 50  0000 R CNN
-F 1 "D" V 6130 3171 50  0000 R CNN
-F 2 "keebio_parts:Diode-Hybrid-Back" H 6175 3250 50  0001 C CNN
-F 3 "~" H 6175 3250 50  0001 C CNN
-	1    6175 3250
-	0    -1   -1   0   
+F 0 "D1" H 5325 3050 50  0000 R CNN
+F 1 "D" H 5300 3150 50  0000 R CNN
+F 2 "footprint:diode" H 5300 3250 50  0001 C CNN
+F 3 "~" H 5300 3250 50  0001 C CNN
+	1    5300 3250
+	-1   0    0    1   
 $EndComp
 $Comp
 L kbd:SK6812MINI L?
 U 1 1 5F6D17E3
-P 4900 3700
+P 6700 3150
 AR Path="/5F6D17E3" Ref="L?"  Part="1" 
-AR Path="/5F6CE726/5F6D17E3" Ref="L?"  Part="1" 
+AR Path="/5F6CE726/5F6D17E3" Ref="L1"  Part="1" 
 AR Path="/5F6DC527/5F6D17E3" Ref="L?"  Part="1" 
 AR Path="/5F6DC5E9/5F6D17E3" Ref="L?"  Part="1" 
-F 0 "L?" H 4900 3900 51  0000 C CNN
-F 1 "SK6812MINI" H 4900 3700 16  0000 C CNN
-F 2 "kbd:SK6812MINI_rev" H 4900 3700 60  0001 C CNN
-F 3 "" H 4900 3700 60  0001 C CNN
-	1    4900 3700
+F 0 "L1" H 6700 3350 51  0000 C CNN
+F 1 "SK6812MINI" H 6700 3150 16  0000 C CNN
+F 2 "kbd:SK6812MINI_rev" H 6700 3150 60  0001 C CNN
+F 3 "" H 6700 3150 60  0001 C CNN
+	1    6700 3150
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 4700 3800
-NoConn ~ 5100 3600
-Wire Wire Line
-	4700 3600 4575 3600
-Text GLabel 4475 3600 0    50   Input ~ 0
-VCC
-Wire Wire Line
-	5225 3800 5225 3950
-Wire Wire Line
-	5600 3075 5600 2925
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5F6D17F0
-P 4575 3475
-AR Path="/5F6D17F0" Ref="#FLG?"  Part="1" 
-AR Path="/5F6CE726/5F6D17F0" Ref="#FLG?"  Part="1" 
-AR Path="/5F6DC527/5F6D17F0" Ref="#FLG?"  Part="1" 
-AR Path="/5F6DC5E9/5F6D17F0" Ref="#FLG?"  Part="1" 
-F 0 "#FLG?" H 4575 3550 50  0001 C CNN
-F 1 "PWR_FLAG" H 4575 3648 50  0000 C CNN
-F 2 "" H 4575 3475 50  0001 C CNN
-F 3 "~" H 4575 3475 50  0001 C CNN
-	1    4575 3475
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5F6D17F6
-P 5300 3800
-AR Path="/5F6D17F6" Ref="#FLG?"  Part="1" 
-AR Path="/5F6CE726/5F6D17F6" Ref="#FLG?"  Part="1" 
-AR Path="/5F6DC527/5F6D17F6" Ref="#FLG?"  Part="1" 
-AR Path="/5F6DC5E9/5F6D17F6" Ref="#FLG?"  Part="1" 
-F 0 "#FLG?" H 5300 3875 50  0001 C CNN
-F 1 "PWR_FLAG" V 5300 4125 50  0000 C CNN
-F 2 "" H 5300 3800 50  0001 C CNN
-F 3 "~" H 5300 3800 50  0001 C CNN
-	1    5300 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F6D17FC
-P 5225 3950
-AR Path="/5F6D17FC" Ref="#PWR?"  Part="1" 
-AR Path="/5F6CE726/5F6D17FC" Ref="#PWR?"  Part="1" 
-AR Path="/5F6DC527/5F6D17FC" Ref="#PWR?"  Part="1" 
-AR Path="/5F6DC5E9/5F6D17FC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5225 3700 50  0001 C CNN
-F 1 "GND" H 5230 3777 50  0000 C CNN
-F 2 "" H 5225 3950 50  0001 C CNN
-F 3 "" H 5225 3950 50  0001 C CNN
-	1    5225 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4575 3475 4575 3600
-Connection ~ 4575 3600
-Wire Wire Line
-	4575 3600 4475 3600
-Wire Wire Line
-	5300 3800 5225 3800
-Connection ~ 5225 3800
-Wire Wire Line
-	5225 3800 5100 3800
-Wire Wire Line
-	6175 3400 6175 3475
-Wire Wire Line
-	6175 3475 6300 3475
-Wire Wire Line
-	6100 3075 6175 3075
-Wire Wire Line
-	6175 3075 6175 3100
-Wire Wire Line
-	5600 3075 5700 3075
 $Comp
 L Switch:SW_Push SW?
 U 1 1 5F6D180E
-P 5900 3075
+P 4900 3250
 AR Path="/5F6D180E" Ref="SW?"  Part="1" 
-AR Path="/5F6CE726/5F6D180E" Ref="SW?"  Part="1" 
+AR Path="/5F6CE726/5F6D180E" Ref="SW1"  Part="1" 
 AR Path="/5F6DC527/5F6D180E" Ref="SW?"  Part="1" 
 AR Path="/5F6DC5E9/5F6D180E" Ref="SW?"  Part="1" 
-F 0 "SW?" H 5900 3360 50  0000 C CNN
-F 1 "SW_Push" H 5900 3269 50  0000 C CNN
-F 2 "kbd:MX_Hotswap_single" H 5900 3275 50  0001 C CNN
-F 3 "~" H 5900 3275 50  0001 C CNN
-	1    5900 3075
+F 0 "SW1" H 4900 3535 50  0000 C CNN
+F 1 "SW_Push" H 4900 3444 50  0000 C CNN
+F 2 "kbd:MX_Hotswap_single" H 4900 3450 50  0001 C CNN
+F 3 "~" H 4900 3450 50  0001 C CNN
+	1    4900 3250
+	1    0    0    -1  
+$EndComp
+Text HLabel 4600 3250 0    50   BiDi ~ 0
+COL_N
+Text HLabel 5500 3250 2    50   BiDi ~ 0
+ROW_N
+Wire Wire Line
+	5100 3250 5150 3250
+Wire Wire Line
+	5450 3250 5500 3250
+Wire Wire Line
+	4600 3250 4700 3250
+Wire Wire Line
+	6900 3250 6975 3250
+Text Notes 4700 2575 0    89   ~ 0
+SWITCH
+Text Notes 6450 2600 0    89   ~ 0
+RGB LED
+$Comp
+L Connector:Conn_01x01_Female J1
+U 1 1 5F7104B2
+P 4925 4150
+F 0 "J1" H 4953 4176 50  0000 L CNN
+F 1 "(+)" H 5100 4175 50  0000 L CNN
+F 2 "kbd:wirepad-h0.8mm-d1.8mm" H 4925 4150 50  0001 C CNN
+F 3 "~" H 4925 4150 50  0001 C CNN
+	1    4925 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
-U 1 1 5F6D1814
-P 7100 2925
-AR Path="/5F6D1814" Ref="J?"  Part="1" 
-AR Path="/5F6CE726/5F6D1814" Ref="J?"  Part="1" 
-AR Path="/5F6DC527/5F6D1814" Ref="J?"  Part="1" 
-AR Path="/5F6DC5E9/5F6D1814" Ref="J?"  Part="1" 
-F 0 "J?" H 7128 2951 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7128 2860 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork" H 7100 2925 50  0001 C CNN
-F 3 "~" H 7100 2925 50  0001 C CNN
-	1    7100 2925
+L Connector:Conn_01x01_Female J7
+U 1 1 5F70FDB4
+P 6550 4125
+F 0 "J7" H 6578 4151 50  0000 L CNN
+F 1 "(+)" H 6578 4060 50  0000 L CNN
+F 2 "kbd:wirepad-h0.8mm-d1.8mm" H 6550 4125 50  0001 C CNN
+F 3 "~" H 6550 4125 50  0001 C CNN
+	1    6550 4125
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
-U 1 1 5F6D181A
-P 7100 3100
-AR Path="/5F6D181A" Ref="J?"  Part="1" 
-AR Path="/5F6CE726/5F6D181A" Ref="J?"  Part="1" 
-AR Path="/5F6DC527/5F6D181A" Ref="J?"  Part="1" 
-AR Path="/5F6DC5E9/5F6D181A" Ref="J?"  Part="1" 
-F 0 "J?" H 7128 3126 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7128 3035 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork" H 7100 3100 50  0001 C CNN
-F 3 "~" H 7100 3100 50  0001 C CNN
-	1    7100 3100
+L Connector:Conn_01x01_Female J2
+U 1 1 5F710812
+P 4925 4350
+F 0 "J2" H 4953 4376 50  0000 L CNN
+F 1 "(-)" H 5100 4375 50  0000 L CNN
+F 2 "kbd:wirepad-h0.8mm-d1.8mm" H 4925 4350 50  0001 C CNN
+F 3 "~" H 4925 4350 50  0001 C CNN
+	1    4925 4350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
-U 1 1 5F6D1820
-P 7100 3275
-AR Path="/5F6D1820" Ref="J?"  Part="1" 
-AR Path="/5F6CE726/5F6D1820" Ref="J?"  Part="1" 
-AR Path="/5F6DC527/5F6D1820" Ref="J?"  Part="1" 
-AR Path="/5F6DC5E9/5F6D1820" Ref="J?"  Part="1" 
-F 0 "J?" H 7128 3301 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7128 3210 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork" H 7100 3275 50  0001 C CNN
-F 3 "~" H 7100 3275 50  0001 C CNN
-	1    7100 3275
+L Connector:Conn_01x01_Female J8
+U 1 1 5F7112DE
+P 6550 4325
+F 0 "J8" H 6578 4351 50  0000 L CNN
+F 1 "(-)" H 6578 4260 50  0000 L CNN
+F 2 "kbd:wirepad-h0.8mm-d1.8mm" H 6550 4325 50  0001 C CNN
+F 3 "~" H 6550 4325 50  0001 C CNN
+	1    6550 4325
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
-U 1 1 5F6D1826
-P 7100 3450
-AR Path="/5F6D1826" Ref="J?"  Part="1" 
-AR Path="/5F6CE726/5F6D1826" Ref="J?"  Part="1" 
-AR Path="/5F6DC527/5F6D1826" Ref="J?"  Part="1" 
-AR Path="/5F6DC5E9/5F6D1826" Ref="J?"  Part="1" 
-F 0 "J?" H 7128 3476 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7128 3385 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork" H 7100 3450 50  0001 C CNN
-F 3 "~" H 7100 3450 50  0001 C CNN
-	1    7100 3450
+L Connector:Conn_01x01_Female J3
+U 1 1 5F7112E8
+P 4925 4550
+F 0 "J3" H 4953 4576 50  0000 L CNN
+F 1 "C" H 5100 4575 50  0000 L CNN
+F 2 "kbd:wirepad-h0.8mm-d1.8mm" H 4925 4550 50  0001 C CNN
+F 3 "~" H 4925 4550 50  0001 C CNN
+	1    4925 4550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
-U 1 1 5F6D182C
-P 7100 3700
-AR Path="/5F6D182C" Ref="J?"  Part="1" 
-AR Path="/5F6CE726/5F6D182C" Ref="J?"  Part="1" 
-AR Path="/5F6DC527/5F6D182C" Ref="J?"  Part="1" 
-AR Path="/5F6DC5E9/5F6D182C" Ref="J?"  Part="1" 
-F 0 "J?" H 7128 3726 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7128 3635 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork" H 7100 3700 50  0001 C CNN
-F 3 "~" H 7100 3700 50  0001 C CNN
-	1    7100 3700
+L Connector:Conn_01x01_Female J9
+U 1 1 5F7112F2
+P 6550 4550
+F 0 "J9" H 6578 4576 50  0000 L CNN
+F 1 "C" H 6578 4485 50  0000 L CNN
+F 2 "kbd:wirepad-h0.8mm-d1.8mm" H 6550 4550 50  0001 C CNN
+F 3 "~" H 6550 4550 50  0001 C CNN
+	1    6550 4550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
-U 1 1 5F6D1832
-P 7100 3875
-AR Path="/5F6D1832" Ref="J?"  Part="1" 
-AR Path="/5F6CE726/5F6D1832" Ref="J?"  Part="1" 
-AR Path="/5F6DC527/5F6D1832" Ref="J?"  Part="1" 
-AR Path="/5F6DC5E9/5F6D1832" Ref="J?"  Part="1" 
-F 0 "J?" H 7128 3901 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7128 3810 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork" H 7100 3875 50  0001 C CNN
-F 3 "~" H 7100 3875 50  0001 C CNN
-	1    7100 3875
+L Connector:Conn_01x01_Female J4
+U 1 1 5F7127C1
+P 4925 4750
+F 0 "J4" H 4953 4776 50  0000 L CNN
+F 1 "R" H 5100 4775 50  0000 L CNN
+F 2 "kbd:wirepad-h0.8mm-d1.8mm" H 4925 4750 50  0001 C CNN
+F 3 "~" H 4925 4750 50  0001 C CNN
+	1    4925 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
-U 1 1 5F6D1838
-P 7100 4050
-AR Path="/5F6D1838" Ref="J?"  Part="1" 
-AR Path="/5F6CE726/5F6D1838" Ref="J?"  Part="1" 
-AR Path="/5F6DC527/5F6D1838" Ref="J?"  Part="1" 
-AR Path="/5F6DC5E9/5F6D1838" Ref="J?"  Part="1" 
-F 0 "J?" H 7128 4076 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7128 3985 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork" H 7100 4050 50  0001 C CNN
-F 3 "~" H 7100 4050 50  0001 C CNN
-	1    7100 4050
+L Connector:Conn_01x01_Female J10
+U 1 1 5F7127CB
+P 6550 4750
+F 0 "J10" H 6578 4776 50  0000 L CNN
+F 1 "R" H 6578 4685 50  0000 L CNN
+F 2 "kbd:wirepad-h0.8mm-d1.8mm" H 6550 4750 50  0001 C CNN
+F 3 "~" H 6550 4750 50  0001 C CNN
+	1    6550 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
-U 1 1 5F6D183E
-P 7100 4225
-AR Path="/5F6D183E" Ref="J?"  Part="1" 
-AR Path="/5F6CE726/5F6D183E" Ref="J?"  Part="1" 
-AR Path="/5F6DC527/5F6D183E" Ref="J?"  Part="1" 
-AR Path="/5F6DC5E9/5F6D183E" Ref="J?"  Part="1" 
-F 0 "J?" H 7128 4251 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7128 4160 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork" H 7100 4225 50  0001 C CNN
-F 3 "~" H 7100 4225 50  0001 C CNN
-	1    7100 4225
+L Connector:Conn_01x01_Female J11
+U 1 1 5F7127DF
+P 6550 4950
+F 0 "J11" H 6578 4976 50  0000 L CNN
+F 1 "DI" H 6578 4885 50  0000 L CNN
+F 2 "kbd:wirepad-h0.8mm-d1.8mm" H 6550 4950 50  0001 C CNN
+F 3 "~" H 6550 4950 50  0001 C CNN
+	1    6550 4950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
-U 1 1 5F6D1844
-P 7125 4500
-AR Path="/5F6D1844" Ref="J?"  Part="1" 
-AR Path="/5F6CE726/5F6D1844" Ref="J?"  Part="1" 
-AR Path="/5F6DC527/5F6D1844" Ref="J?"  Part="1" 
-AR Path="/5F6DC5E9/5F6D1844" Ref="J?"  Part="1" 
-F 0 "J?" H 7153 4526 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7153 4435 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork" H 7125 4500 50  0001 C CNN
-F 3 "~" H 7125 4500 50  0001 C CNN
-	1    7125 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J?
-U 1 1 5F6D184A
-P 7125 4675
-AR Path="/5F6D184A" Ref="J?"  Part="1" 
-AR Path="/5F6CE726/5F6D184A" Ref="J?"  Part="1" 
-AR Path="/5F6DC527/5F6D184A" Ref="J?"  Part="1" 
-AR Path="/5F6DC5E9/5F6D184A" Ref="J?"  Part="1" 
-F 0 "J?" H 7153 4701 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7153 4610 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork" H 7125 4675 50  0001 C CNN
-F 3 "~" H 7125 4675 50  0001 C CNN
-	1    7125 4675
+L Connector:Conn_01x01_Female J12
+U 1 1 5F7127F3
+P 6550 5150
+F 0 "J12" H 6578 5176 50  0000 L CNN
+F 1 "DO" H 6578 5085 50  0000 L CNN
+F 2 "kbd:wirepad-h0.8mm-d1.8mm" H 6550 5150 50  0001 C CNN
+F 3 "~" H 6550 5150 50  0001 C CNN
+	1    6550 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5525 2925 5600 2925
-Text HLabel 5525 2925 0    50   BiDi ~ 0
-COL
-Text HLabel 6300 3475 2    50   BiDi ~ 0
-ROW
+	6400 3050 6500 3050
+Text HLabel 6400 3050 0    50   BiDi ~ 0
+VCC
+Text HLabel 6975 3250 2    50   BiDi ~ 0
+GND
+Text HLabel 4625 4150 0    50   BiDi ~ 0
+VCC
+Text HLabel 4625 4350 0    50   BiDi ~ 0
+GND
+Text HLabel 6250 4125 0    50   BiDi ~ 0
+VCC
+Text HLabel 6250 4325 0    50   BiDi ~ 0
+GND
+Text HLabel 4625 4550 0    50   BiDi ~ 0
+COL_N
+Text HLabel 6250 4550 0    50   BiDi ~ 0
+COL_N
+Text HLabel 4625 4750 0    50   BiDi ~ 0
+ROW_N
+Text HLabel 6250 4750 0    50   BiDi ~ 0
+ROW_N
+Text HLabel 6400 3250 0    50   BiDi ~ 0
+LED_DI
+Text HLabel 6975 3050 2    50   BiDi ~ 0
+LED_DO
+Wire Wire Line
+	6900 3050 6975 3050
+Wire Wire Line
+	6500 3250 6400 3250
+Text HLabel 4625 4950 0    50   BiDi ~ 0
+LED_DI
+Text HLabel 6250 4950 0    50   BiDi ~ 0
+LED_DI
+Text HLabel 4625 5150 0    50   BiDi ~ 0
+LED_DO
+Text HLabel 6250 5150 0    50   BiDi ~ 0
+LED_DO
+Wire Wire Line
+	4625 5150 4725 5150
+Wire Wire Line
+	6250 5150 6350 5150
+Wire Wire Line
+	6250 4950 6350 4950
+Wire Wire Line
+	4625 4950 4725 4950
+Wire Wire Line
+	6250 4750 6350 4750
+Wire Wire Line
+	4625 4750 4725 4750
+Wire Wire Line
+	6250 4550 6350 4550
+Wire Wire Line
+	4625 4550 4725 4550
+Wire Wire Line
+	6250 4325 6350 4325
+Wire Wire Line
+	4625 4350 4725 4350
+Wire Wire Line
+	6250 4125 6350 4125
+Wire Wire Line
+	4625 4150 4725 4150
+Text Notes 5625 3875 0    50   ~ 0
+CONNECTORS
+$Comp
+L Connector:Conn_01x01_Female J5
+U 1 1 5F7127D5
+P 4925 4950
+F 0 "J5" H 4953 4976 50  0000 L CNN
+F 1 "DI" H 5100 4975 50  0000 L CNN
+F 2 "kbd:wirepad-h0.8mm-d1.8mm" H 4925 4950 50  0001 C CNN
+F 3 "~" H 4925 4950 50  0001 C CNN
+	1    4925 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 5F7127E9
+P 4925 5150
+F 0 "J6" H 4953 5176 50  0000 L CNN
+F 1 "DO" H 5100 5175 50  0000 L CNN
+F 2 "kbd:wirepad-h0.8mm-d1.8mm" H 4925 5150 50  0001 C CNN
+F 3 "~" H 4925 5150 50  0001 C CNN
+	1    4925 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
