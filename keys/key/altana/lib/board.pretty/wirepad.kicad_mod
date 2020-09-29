@@ -1,0 +1,11 @@
+(module wirepad (layer F.Cu) (tedit 5F727EDC)
+  (descr "Stylish wirepad")
+  (attr virtual)
+  (fp_text reference REF** (at 0 -1.2) (layer F.SilkS) hide
+    (effects (font (size 0.6 0.6) (thickness 0.12)))
+  )
+  (fp_text value Wirepad (at 0 1.5) (layer F.Fab) hide
+    (effects (font (size 0.6 0.6) (thickness 0.12)))
+  )
+  (pad 1 thru_hole oval (at 0 0) (size 1.8 1.6) (drill 0.8 (offset 0 0.2)) (layers *.Cu *.Mask))
+)
