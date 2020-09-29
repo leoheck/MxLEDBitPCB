@@ -1,5 +1,5 @@
 (fp_lib_table
+  (lib (name Altana)(type KiCad)(uri ${KIPRJMOD}/lib/board.pretty)(options "")(descr "Project library"))
   (lib (name keebio_parts)(type KiCad)(uri ${KIPRJMOD}/../../../lib/kbd.pretty)(options "")(descr ""))
-  (lib (name footprint)(type KiCad)(uri ${KIPRJMOD}/footprint.pretty)(options "")(descr ""))
   (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/../../../lib/keyboard.pretty)(options "")(descr ""))
 )
