@@ -16,36 +16,36 @@ $EndDescr
 $Comp
 L Device:D D?
 U 1 1 5F6D17DD
-P 5875 2875
+P 5900 2500
 AR Path="/5F6D17DD" Ref="D?"  Part="1" 
 AR Path="/5F6CE726/5F6D17DD" Ref="D1"  Part="1" 
 AR Path="/5F6DC527/5F6D17DD" Ref="D?"  Part="1" 
 AR Path="/5F6DC5E9/5F6D17DD" Ref="D?"  Part="1" 
-F 0 "D1" H 5925 2650 50  0000 R CNN
-F 1 "1N4148" H 6025 2750 50  0000 R CNN
-F 2 "Altana:diode" H 5875 2875 50  0001 C CNN
-F 3 "~" H 5875 2875 50  0001 C CNN
-	1    5875 2875
+F 0 "D1" H 5950 2275 50  0000 R CNN
+F 1 "1N4148" H 6050 2375 50  0000 R CNN
+F 2 "Altana:diode" H 5900 2500 50  0001 C CNN
+F 3 "~" H 5900 2500 50  0001 C CNN
+	1    5900 2500
 	-1   0    0    1   
 $EndComp
-Text HLabel 5150 2875 0    50   BiDi ~ 0
+Text HLabel 5200 2500 0    50   BiDi ~ 0
 COL_N
-Text HLabel 6075 2875 2    50   BiDi ~ 0
+Text HLabel 6100 2500 2    50   BiDi ~ 0
 ROW_N
 Wire Wire Line
-	5650 2875 5725 2875
+	5700 2500 5750 2500
 Wire Wire Line
-	6025 2875 6075 2875
+	6050 2500 6100 2500
 Wire Wire Line
-	5150 2875 5250 2875
+	5200 2500 5300 2500
 Wire Wire Line
-	5450 3450 5375 3450
+	4825 3300 4775 3300
 $Comp
 L Connector:Conn_01x01_Female J1
 U 1 1 5F7104B2
 P 4925 4150
 F 0 "J1" H 4953 4176 50  0000 L CNN
-F 1 "(+)" H 5100 4175 50  0000 L CNN
+F 1 "(+)" H 5075 4175 50  0000 L CNN
 F 2 "Altana:wirepad" H 4925 4150 50  0001 C CNN
 F 3 "~" H 4925 4150 50  0001 C CNN
 	1    4925 4150
@@ -54,34 +54,34 @@ $EndComp
 $Comp
 L Connector:Conn_01x01_Female J7
 U 1 1 5F70FDB4
-P 6550 4125
-F 0 "J7" H 6578 4151 50  0000 L CNN
-F 1 "(+)" H 6578 4060 50  0000 L CNN
-F 2 "Altana:wirepad" H 6550 4125 50  0001 C CNN
-F 3 "~" H 6550 4125 50  0001 C CNN
-	1    6550 4125
+P 5900 4150
+F 0 "J7" H 5928 4176 50  0000 L CNN
+F 1 "(+)" H 6050 4150 50  0000 L CNN
+F 2 "Altana:wirepad" H 5900 4150 50  0001 C CNN
+F 3 "~" H 5900 4150 50  0001 C CNN
+	1    5900 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J2
 U 1 1 5F710812
-P 4925 4350
-F 0 "J2" H 4953 4376 50  0000 L CNN
-F 1 "(-)" H 5100 4375 50  0000 L CNN
-F 2 "Altana:wirepad" H 4925 4350 50  0001 C CNN
-F 3 "~" H 4925 4350 50  0001 C CNN
-	1    4925 4350
+P 4925 4275
+F 0 "J2" H 4953 4301 50  0000 L CNN
+F 1 "(-)" H 5075 4300 50  0000 L CNN
+F 2 "Altana:wirepad" H 4925 4275 50  0001 C CNN
+F 3 "~" H 4925 4275 50  0001 C CNN
+	1    4925 4275
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J8
 U 1 1 5F7112DE
-P 6550 4325
-F 0 "J8" H 6578 4351 50  0000 L CNN
-F 1 "(-)" H 6578 4260 50  0000 L CNN
-F 2 "Altana:wirepad" H 6550 4325 50  0001 C CNN
-F 3 "~" H 6550 4325 50  0001 C CNN
-	1    6550 4325
+P 5900 4275
+F 0 "J8" H 5928 4301 50  0000 L CNN
+F 1 "(-)" H 6050 4275 50  0000 L CNN
+F 2 "Altana:wirepad" H 5900 4275 50  0001 C CNN
+F 3 "~" H 5900 4275 50  0001 C CNN
+	1    5900 4275
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -150,19 +150,15 @@ F 3 "~" H 6550 5150 50  0001 C CNN
 	1    6550 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 3250 5850 3250
-Text HLabel 5950 3250 2    50   BiDi ~ 0
-VCC
-Text HLabel 5375 3450 0    50   BiDi ~ 0
+Text HLabel 4775 3300 0    50   BiDi ~ 0
 GND
 Text HLabel 4625 4150 0    50   BiDi ~ 0
 VCC
-Text HLabel 4625 4350 0    50   BiDi ~ 0
+Text HLabel 4625 4275 0    50   BiDi ~ 0
 GND
-Text HLabel 6250 4125 0    50   BiDi ~ 0
+Text HLabel 5600 4150 0    50   BiDi ~ 0
 VCC
-Text HLabel 6250 4325 0    50   BiDi ~ 0
+Text HLabel 5600 4275 0    50   BiDi ~ 0
 GND
 Text HLabel 4625 4550 0    50   BiDi ~ 0
 COL_N
@@ -172,14 +168,14 @@ Text HLabel 4625 4750 0    50   BiDi ~ 0
 ROW_N
 Text HLabel 6250 4750 0    50   BiDi ~ 0
 ROW_N
-Text HLabel 5950 3450 2    50   BiDi ~ 0
+Text HLabel 5275 3300 2    50   BiDi ~ 0
 LED_DI
-Text HLabel 5375 3250 0    50   BiDi ~ 0
+Text HLabel 4775 3100 0    50   BiDi ~ 0
 LED_DO
 Wire Wire Line
-	5450 3250 5375 3250
+	4825 3100 4775 3100
 Wire Wire Line
-	5850 3450 5950 3450
+	5225 3300 5275 3300
 Text HLabel 4625 4950 0    50   BiDi ~ 0
 LED_DI
 Text HLabel 6250 4950 0    50   BiDi ~ 0
@@ -205,11 +201,11 @@ Wire Wire Line
 Wire Wire Line
 	4625 4550 4725 4550
 Wire Wire Line
-	6250 4325 6350 4325
+	5600 4275 5700 4275
 Wire Wire Line
-	4625 4350 4725 4350
+	4625 4275 4725 4275
 Wire Wire Line
-	6250 4125 6350 4125
+	5600 4150 5700 4150
 Wire Wire Line
 	4625 4150 4725 4150
 $Comp
@@ -237,23 +233,52 @@ $EndComp
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5F727337
-P 5450 2875
-F 0 "SW1" H 5450 3160 50  0000 C CNN
-F 1 "SW_Push" H 5450 3069 50  0000 C CNN
-F 2 "Altana:Switch_MX_Hotswap" H 5450 3075 50  0001 C CNN
-F 3 "~" H 5450 3075 50  0001 C CNN
-	1    5450 2875
+P 5500 2500
+F 0 "SW1" H 5500 2785 50  0000 C CNN
+F 1 "SW_Push" H 5500 2694 50  0000 C CNN
+F 2 "Altana:Switch_MX_Hotswap" H 5500 2700 50  0001 C CNN
+F 3 "~" H 5500 2700 50  0001 C CNN
+	1    5500 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Altana:SK6812MINI D2
 U 1 1 5F732BC5
-P 5650 3350
-F 0 "D2" H 5650 3575 51  0000 C CNN
-F 1 "SK6812MINI" H 5650 3350 28  0000 C CNN
-F 2 "Altana:SK6812MINI" H 5650 3350 60  0001 C CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5650 3350 60  0001 C CNN
-	1    5650 3350
+P 5025 3200
+F 0 "D2" H 5025 3425 51  0000 C CNN
+F 1 "SK6812MINI" H 5025 3200 28  0000 C CNN
+F 2 "Altana:SK6812MINI" H 5025 3200 60  0001 C CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5025 3200 60  0001 C CNN
+	1    5025 3200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5F734A9A
+P 6275 3275
+F 0 "C1" H 6367 3321 50  0000 L CNN
+F 1 "C_Small" H 6367 3230 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6275 3275 50  0001 C CNN
+F 3 "~" H 6275 3275 50  0001 C CNN
+	1    6275 3275
+	1    0    0    -1  
+$EndComp
+Text HLabel 5275 3100 2    50   BiDi ~ 0
+VCC
+Wire Wire Line
+	5275 3100 5225 3100
+Text HLabel 6225 3150 0    50   BiDi ~ 0
+VCC
+Wire Wire Line
+	6275 3150 6275 3175
+Wire Wire Line
+	6225 3150 6275 3150
+Wire Wire Line
+	6275 3375 6275 3400
+Wire Wire Line
+	6275 3400 6225 3400
+Text HLabel 6225 3400 0    50   BiDi ~ 0
+GND
+Text Notes 5825 3025 0    50   ~ 0
+SK6812MINI Decoupling\nKeep near pin 4 (VCC)
 $EndSCHEMATC
