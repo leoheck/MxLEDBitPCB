@@ -2,8 +2,8 @@
 # Kicad files
 *.net
 *bak
+*bck
 *.tmp
-
 
 # Extra temporary files
 .DS_Store
