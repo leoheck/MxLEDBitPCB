@@ -1,6 +1,6 @@
 (sym_lib_table
+  (lib (name Altana)(type Legacy)(uri ${KIPRJMOD}/lib/board.lib)(options "")(descr "Project library"))
   (lib (name kbd)(type Legacy)(uri ${KIPRJMOD}/../../../lib/kbd.lib)(options "")(descr ""))
-  (lib (name altana)(type Legacy)(uri ${KIPRJMOD}/altana.lib)(options "")(descr ""))
   (lib (name kbd1)(type Legacy)(uri ${KIPRJMOD}/../../../lib/keebio-components/keebio.lib)(options "")(descr ""))
   (lib (name kbd2)(type Legacy)(uri ${KIPRJMOD}/../../../lib/keyboard.pretty/AT90USB1286-AU.lib)(options "")(descr ""))
   (lib (name kbd3)(type Legacy)(uri ${KIPRJMOD}/../../../lib/keyboard.pretty/kbd.lib)(options "")(descr ""))
